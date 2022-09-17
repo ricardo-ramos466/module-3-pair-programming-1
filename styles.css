@@ -22,8 +22,10 @@ header img {
     width: auto;
 }
 header h1 {
+    display: inline;
     padding-left: 20px;
     padding-top: 10px;
+    
 }
 
 main img {
@@ -54,4 +56,16 @@ main, section, footer {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-weight: bold;
 }
